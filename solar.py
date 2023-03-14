@@ -68,7 +68,12 @@ while 1:
     
     current_solar_pos = pos = get_position(datetime.now(timezone.utc), lon, lat)
     print(current_solar_pos)
+
+    # TODO convert sun position to panel angle. 
+    
     time.sleep(1);
+
+    
 
 
 
